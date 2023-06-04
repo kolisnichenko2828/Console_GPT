@@ -68,7 +68,7 @@ class OpenaiAPI {
 
             var content: String
             runBlocking {
-                val apiKey = "Bearer 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"
+                val apiKey = "Bearer <API_KEY>"
                 val messages = arrayOf(
                     // mapOf("role" to "system", "content" to ""),
                     mapOf("role" to "user", "content" to text)
